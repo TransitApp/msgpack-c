@@ -421,12 +421,12 @@ WRITE_BASIC_PACKAGE_VERSION_FILE (
     COMPATIBILITY SameMajorVersion
 )
 
-IF (NOT CMAKE_VERSION VERSION_LESS 3.0)
-    EXPORT (EXPORT msgpack-targets
-        NAMESPACE Msgpack::
-        FILE "${CMAKE_CURRENT_BINARY_DIR}/msgpack-targets.cmake"
-    )
-ENDIF ()
+# IF (NOT CMAKE_VERSION VERSION_LESS 3.0)
+#     EXPORT (EXPORT msgpack-targets
+#         NAMESPACE Msgpack::
+#         FILE "${CMAKE_CURRENT_BINARY_DIR}/msgpack-targets.cmake"
+#     )
+# ENDIF ()
 
 CONFIGURE_PACKAGE_CONFIG_FILE (msgpack-config.cmake.in
     msgpack-config.cmake
