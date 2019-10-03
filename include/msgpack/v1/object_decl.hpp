@@ -11,17 +11,7 @@
 #define MSGPACK_V1_OBJECT_DECL_HPP
 
 #include "msgpack/versioning.hpp"
-#include "msgpack/pack.hpp"
-#include "msgpack/zone.hpp"
 #include "msgpack/adaptor/adaptor_base.hpp"
-
-#include <cstring>
-#include <stdexcept>
-#include <typeinfo>
-#include <limits>
-#include <ostream>
-#include <typeinfo>
-#include <iomanip>
 
 namespace msgpack {
 

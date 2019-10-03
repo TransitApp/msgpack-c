@@ -13,12 +13,7 @@
 #include "msgpack/object_decl.hpp"
 #include "msgpack/adaptor/check_container_size.hpp"
 
-#include <cstring>
-#include <stdexcept>
-#include <typeinfo>
-#include <limits>
-#include <ostream>
-#include <typeinfo>
+#include <iostream>
 #include <iomanip>
 
 namespace msgpack {

@@ -86,7 +86,6 @@
 
 #elif defined(unix) || defined(__unix) || defined(__APPLE__) || defined(__OpenBSD__)
 
-#include <arpa/inet.h>  /* __BYTE_ORDER */
 #   if defined(linux)
 #       include <byteswap.h>
 #   endif
