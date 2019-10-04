@@ -11,6 +11,8 @@
 #define MSGPACK_V1_PACK_HPP
 
 #include "msgpack/v1/pack_decl.hpp"
+#include <climits>
+#include <cstring>
 
 namespace msgpack {
 
